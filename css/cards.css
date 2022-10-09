@@ -54,3 +54,17 @@
 .mb{
     margin-bottom: 35px;
 }
+
+
+@media screen and (max-width:1140px) {
+    .cards__wrap{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        
+    }
+    .card{
+        flex-basis: 45%;
+    }
+}

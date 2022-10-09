@@ -8,6 +8,7 @@
     background: white;
     overflow: hidden;
     transition: 0.3s;
+    z-index: 100;
 }
 
 .aside:hover {
@@ -22,7 +23,7 @@
     height: 100%;
 }
 
-.logo {
+.aside__logo {
     font-size: 60px;
     color: #2A86B1;
 }
@@ -52,4 +53,16 @@
 
 .nav__link:hover {
     color: #2A86B1;
+}
+
+
+@media screen and (max-width:1440px) {
+    .aside{
+        display: block;
+    }
+}
+@media screen and (max-width:1320px) {
+    .aside{
+        display: none;
+    }
 }
